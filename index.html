@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Celebrare</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="first">
+            <div class="home">
+                <a href="index.html">
+                    <ion-icon name="home"></ion-icon>
+                </a>
+            </div>
+            <div class="header">
+                <h4>Add Image/Icon</h4>
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="text">
+                <p>Upload Image..</p>
+            </div>
+            <div class="upload-img">
+                <input type="file" accept="image/*" name="image" id="file" onchange="imageUpdate(event)">
+                <label for="file"><p>Choose from Device</p></label>
+            </div>
+        </section>
+
+        <section class="third" id="image-dom"></section>
+
+    </div>
+
+    <!-- script  -->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

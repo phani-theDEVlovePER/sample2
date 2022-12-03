@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: black; */
+    max-width: 360px;
+    height: 100vh;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+/* first-section */
+
+.container .first{
+    background-color: #e6e8e7;
+    max-width: 360px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -2px 8px 8px 0px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.container .first .home ion-icon {
+    margin-right: 6rem;
+}
+
+.container .first .home a{
+    color: black;
+}
+
+.container .first .header h4{
+    letter-spacing: 1px;
+}
+
+/* second-section */
+
+.container .second {
+    min-width: 326px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border: 2px solid grey;
+    border-radius: 14px;
+}
+
+.container .second .text{
+    min-width: 326px;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .second .text p{
+    font-weight: bolder;
+}
+
+.container .second .upload-img{
+    min-width: 326px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .second .upload-img label p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    min-width: 100px;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.container .second .upload-img input{
+    display: none;
+}
+
+/* third-container */
+
+.container .third{
+    height: 70vh;
+    margin: 1rem;
+}
+.container #image-dom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
